@@ -1,3 +1,4 @@
+package co.aurasphere.educational.java.demo.stringpool;
 
 public class JavaStringPoolDemo {
 
