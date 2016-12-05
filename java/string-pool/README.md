@@ -11,3 +11,6 @@ On the other hand, the "equals()" method makes a comparison between the real var
 ##String interning
 Before instantiating a new String, the JVM checks that this isn't already on the String pool, a memory area used for storing them.
 If the String is not there, a new String is created and a new reference to the String is returned. If the String is already there, the already existing reference will be returned.
+
+
+<sub>This program was made on July 10, 2015 by Donato Rimenti.</sub>
