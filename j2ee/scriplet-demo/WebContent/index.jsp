@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Scriplet demo</title>
+<title>Scriplet Demo</title>
 </head>
 <body>
 	<h1>Scriplet expression generated message</h1>
