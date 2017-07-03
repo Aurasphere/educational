@@ -4,7 +4,7 @@
 <%@ page errorPage="GuestBookErrorPage.jsp"%>
 
 <jsp:useBean id='guest' scope='page'
-	class='co.aurasphere.educational.j2ee.demo.jsp.model.GuestBean' />
+	class='co.aurasphere.courseware.j2ee.demo.jsp.model.GuestBean' />
 
 <html>
 
