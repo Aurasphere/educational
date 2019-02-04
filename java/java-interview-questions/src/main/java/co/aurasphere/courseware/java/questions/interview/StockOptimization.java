@@ -21,7 +21,7 @@
 * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 * SOFTWARE.
 */
-package co.aurasphere.courseware.java.interview.questions.logic;
+package co.aurasphere.courseware.java.questions.interview;
 
 import java.util.ArrayList;
 import java.util.Iterator;

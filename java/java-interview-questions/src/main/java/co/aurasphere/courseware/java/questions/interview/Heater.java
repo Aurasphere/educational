@@ -21,24 +21,24 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package co.aurasphere.courseware.java.interview.questions.patterns;
+package co.aurasphere.courseware.java.questions.interview;
 
 /**
- * Simple implementation of the singleton design pattern.
+ * Question: write a program to heat yourself in winter.
  * 
  * @author Donato Rimenti
  *
  */
-public enum SingletonExample {
-	
-	/**
-	 * The only instance of this class.
-	 */
-	INSTANCE;
+public class Heater {
 
 	/**
-	 * Does stuff.
+	 * Program which turns on the computer's fan using an endless loop.
+	 * 
+	 * @param args null
 	 */
-	public void customMethod() {
+	public static void main(String[] args) {
+		for (;;) {
+		}
 	}
+
 }

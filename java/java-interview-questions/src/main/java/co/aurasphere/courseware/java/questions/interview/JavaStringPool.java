@@ -21,7 +21,7 @@
 * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 * SOFTWARE.
 */
-package co.aurasphere.courseware.java.interview.questions.logic;
+package co.aurasphere.courseware.java.questions.interview;
 
 /**
  * Question: write a program that demonstrates how the JVM string pool works.
@@ -29,7 +29,7 @@ package co.aurasphere.courseware.java.interview.questions.logic;
  * @author Donato Rimenti
  *
  */
-public class JavaStringPoolDemo {
+public class JavaStringPool {
 
 	/**
 	 * Program which demonstrates how the JVM string pool works.

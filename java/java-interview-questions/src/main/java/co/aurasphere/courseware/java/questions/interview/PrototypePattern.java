@@ -21,24 +21,67 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package co.aurasphere.courseware.java.interview.questions.logic;
+package co.aurasphere.courseware.java.questions.interview;
 
 /**
- * Question: write a program to heat yourself in winter.
+ * Question: write a simple implementation of the prototype design pattern.
  * 
  * @author Donato Rimenti
  *
  */
-public class Heater {
+public class PrototypePattern {
 
 	/**
-	 * Program which turns on the computer's fan using an endless loop.
-	 * 
-	 * @param args null
+	 * Generic data of this class.
 	 */
-	public static void main(String[] args) {
-		for (;;) {
-		}
+	private String data;
+
+	/**
+	 * Instantiates a new PrototypePattern.
+	 */
+	public PrototypePattern() {
+		// Constructor which performs very expensive operations to retrieve the
+		// data field.
+		// this.data = veryExpensiveOperation();
+	}
+
+	/**
+	 * Instantiates a new PrototypePattern.
+	 *
+	 * @param data
+	 *            the {@link #data}
+	 */
+	public PrototypePattern(String data) {
+		this.data = data;
+	}
+
+	/**
+	 * Gets the {@link #data}.
+	 *
+	 * @return the {@link #data}
+	 */
+	public String getData() {
+		return data;
+	}
+
+	/**
+	 * Sets the {@link #data}.
+	 *
+	 * @param data
+	 *            the new {@link #data}
+	 */
+	public void setData(String data) {
+		this.data = data;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see java.lang.Object#clone()
+	 */
+	@Override
+	public PrototypePattern clone() {
+		return new PrototypePattern(this.data);
 	}
 
 }

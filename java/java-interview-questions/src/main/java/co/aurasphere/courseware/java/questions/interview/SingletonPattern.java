@@ -21,67 +21,24 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package co.aurasphere.courseware.java.interview.questions.patterns;
+package co.aurasphere.courseware.java.questions.interview;
 
 /**
- * Simple implementation of the prototype design pattern.
+ * Question: write a simple implementation of the singleton design pattern.
  * 
  * @author Donato Rimenti
  *
  */
-public class PrototypeDemo {
+public enum SingletonPattern {
+	
+	/**
+	 * The only instance of this class.
+	 */
+	INSTANCE;
 
 	/**
-	 * Generic data of this class.
+	 * Does stuff.
 	 */
-	private String data;
-
-	/**
-	 * Instantiates a new PrototypeDemo.
-	 */
-	public PrototypeDemo() {
-		// Constructor which performs very expensive operations to retrieve the
-		// data field.
-		// this.data = veryExpensiveOperation();
+	public void customMethod() {
 	}
-
-	/**
-	 * Instantiates a new PrototypeDemo.
-	 *
-	 * @param data
-	 *            the {@link #data}
-	 */
-	public PrototypeDemo(String data) {
-		this.data = data;
-	}
-
-	/**
-	 * Gets the {@link #data}.
-	 *
-	 * @return the {@link #data}
-	 */
-	public String getData() {
-		return data;
-	}
-
-	/**
-	 * Sets the {@link #data}.
-	 *
-	 * @param data
-	 *            the new {@link #data}
-	 */
-	public void setData(String data) {
-		this.data = data;
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Object#clone()
-	 */
-	@Override
-	public PrototypeDemo clone() {
-		return new PrototypeDemo(this.data);
-	}
-
 }
