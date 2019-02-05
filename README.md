@@ -7,18 +7,18 @@ Follows some guidelines for this repository to keep consistency among the projec
 
 ### Naming conventions for packages
 
-*Base package*: co.aurasphere.courseware
-*Specific package for demo projects*: BASE_PACKAGE + (java|j2ee).(technology)
+*Base package*: co.aurasphere.courseware\
+*Specific package for demo projects*: BASE_PACKAGE + (java|j2ee).(technology)\
 *Specific package for integration projects*: BASE_PACKAGE + (java|j2ee).integration
 
 ### Building
 
 Each Java/J2EE project must use Maven with the following GAV conventions:
 
-*GroupId*: co.aurasphere.courseware
-*ArtifactId for demo projects*: [technology]-demo
-*ArtifactId for integration projects*: [technologies]-integration
-*Version*: 1.0.0
+*GroupId*: co.aurasphere.courseware\
+*ArtifactId for demo projects*: [technology]-demo\
+*ArtifactId for integration projects*: [technologies]-integration\
+*Version*: 1.0.0\
 *Packaging*: WAR (must be present only for J2EE projects)
 
 ### Code complexity
