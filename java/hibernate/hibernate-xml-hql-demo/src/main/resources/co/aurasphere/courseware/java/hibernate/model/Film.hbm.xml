@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="co.aurasphere.courseware.java.hibernate.model.Film" table="film">
+		<id name="id" type="int" column="film_id" />
+		
+		<property name="title" type="string" column="title" />
+		<property name="description" type="string" column="description" />
+		<property name="releaseYear" type="int" column="release_year" />
+		<property name="rentalRate" type="big_decimal" column="rental_rate" />
+		<property name="rating" type="string" column="rating" />
+		
+	</class>
+</hibernate-mapping>
