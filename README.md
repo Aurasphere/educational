@@ -37,6 +37,10 @@ J2EE specific features (i.e. servlets and the like) must be imported as dependen
 
 Some frontend only projects make uses of AJAX features. This may become annoying when trying to run them since you will have to disable the CORS policy in your browser or run it on a web server. In order to make this easier and at the same time to mark those projects, each of them will be bundled with a <code>.project</code> file to import it inside Eclipse and run it on any web server (not necessarily an application one). Obviously, you can just take the project content and put it on a web server of your choice instead.
 
+## Requests
+
+If you want to see here a specific technology or integration of technologies, feel free to open an issue and I'll see what I can do.
+
 ## Contributing
 
 This projects accepts contribution but they will have to strictly adhere to all the previous guidelines. I'll also reserve the right to reject any pull requests due to new rules that come to my mind at the moment or other kinds of problematics that I may haven't take into account yet. In any case, contributions are still appreciated even if they may not be merged.
