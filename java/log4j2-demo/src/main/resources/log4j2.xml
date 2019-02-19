@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+
+	<Appenders>
+		<!-- Defines the console as the output destination with the given format -->
+		<Console name="Console">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+	</Appenders>
+
+	<Loggers>
+		<!-- Logs trace and above levels using the console appender -->
+		<Root level="trace">
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+
+</Configuration>
