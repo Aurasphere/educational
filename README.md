@@ -31,7 +31,9 @@ Since this repository's main function is educational, the code must be heavily c
 
 ### J2EE projects
 
-J2EE specific features (i.e. servlets and the like) must be imported as dependencies inside the <code>pom.xml</code> instead of relying on Eclipse <code>.classpath</code> files.
+In the context of this repository, a project can be considered a J2EE project if it has any web component which cannot be run outside of a web or an application server. Some examples are servlets and JSP. Technologies which may be considered J2EE but don't need a server (for instance Hibernate or Spring Core), will be categorized under Java instead.
+
+J2EE specific features (i.e. servlets API and the like) must be imported as dependencies inside the <code>pom.xml</code> instead of relying on Eclipse <code>.classpath</code> files.
 
 ### JavaScript projects
 
