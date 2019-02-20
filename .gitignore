@@ -5,3 +5,9 @@
 .classpath
 .settings
 target
+/j2ee/jstl-demo/.classpath
+/j2ee/jstl-demo/.project
+/j2ee/jstl-demo/.settings/.jsdtscope
+/j2ee/jstl-demo/.settings/org.eclipse.jdt.core.prefs
+/j2ee/jstl-demo/.settings/org.eclipse.wst.common.component
+/j2ee/jstl-demo/.settings/org.eclipse.wst.common.project.facet.core.xml
