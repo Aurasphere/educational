@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<people>
+	<person id="0">
+		<name>Donato</name>
+		<surname>Rimenti</surname>
+	</person>
+	<person id="0">
+		<name>Mario</name>
+		<surname>Rossi</surname>
+	</person>
+</people>
